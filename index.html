@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Hair Salon</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Corrected typo here -->
+    <script src="https://kit.fontawesome.com/de99f81725.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="hero-section">
+        <div class="navbar">
+            <h2><img width="200px" src="images/logo.jpg" alt="">Beauty Hair Salon</h2>
+            <div class="cart">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--Item cards-->
+    <br><br>
+    <main>
+        <section id="items-section">
+            <h2 class="h2">PRODUCTS</h2>
+            <br><br>
+            <div class="card-container">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Bob cut lace front.jpg" alt="Bob cut lace front" width="400px" height="400px">
+                        <h3>Bob Cut Lace Front</h3>
+                        <div class="price">R1000</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Bob cut lace front" data-price="1000">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Brazilian lace front.webp" alt="Brazilian lace front" width="400px" height="400px">
+                        <h3>Brazilian Lace Front</h3>
+                        <div class="price">R3000</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Brazilian Lace Front" data-price="3000">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Curly lace front.jpg" alt="Curly lace front" width="400px" height="400px">
+                        <h3>Curly Lace Front</h3>
+                        <div class="price">R3800</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Curly Lace Front" data-price="3800">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/lace frontal 4x4.jpg" alt="lace frontal" width="400px" height="400px">
+                        <h3>Lace Frontal</h3>
+                        <div class="price">R4000</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="lace frontal" data-price="4000">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Brazilian-lace-wig.jpg" alt="Brazilian-lace-wig" width="400px" height="400px">
+                        <h3>Brazilian Lace Wig</h3>
+                        <div class="price">R4800</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Brazilian Lace Wig" data-price="4800">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Kinky Curly lace front.jpg" alt="Kinky Curly lace front" width="400px" height="400px">
+                        <h3>Kinky Curly Lace Front</h3>
+                        <div class="price">R5000</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Kinky Curly Lace Front" data-price="5000">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Human hair curl lace front.webp" alt="Human hair curl lace front" width="400px" height="400px">
+                        <h3>Human Hair Curl Lace Front</h3>
+                        <div class="price">R6000</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Human Hair Curl Lace Front" data-price="6000">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="img" src="images/Curly hightlight lace front.webp" alt="Curly hightlight lace" width="400px" height="400px">
+                        <h3>Curly Highlight Lace Front</h3>
+                        <div class="price">R7000</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add-to-cart" data-name="Curly Highlight Lace Front" data-price="7000">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cart-section">
+            <h2 class="h2">Your Cart</h2>
+            <div class="cart-container">
+                <div class="cart-items"></div>
+                <div class="cart-summary">
+                    <p>Total : R<span class="cart-total">0</span></p>
+                    <button class="purchase-btn">Purchase</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <div class="footer-content">
+            <p>Email : info.beautyhairsalon@gmail.com</p>
+            <p>Phone : 0679395578</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
