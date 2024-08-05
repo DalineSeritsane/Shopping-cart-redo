@@ -1,14 +1,14 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e1df72;
+    background-color: #f7f6c8;
     margin: 0;
     padding: 0;
 }
 
 /* Hero Section */
 .hero-section {
-    background: #333;
+    background: #dee551;
     color: #fff;
     padding: 20px;
 }
@@ -48,6 +48,13 @@ body {
 
 .h2 {
     margin-bottom: 20px;
+    display: flex;
+    color:#333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .card-container {
@@ -77,7 +84,7 @@ body {
 }
 
 .card img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 8px 8px 0 0;
 }
